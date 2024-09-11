@@ -54,7 +54,7 @@ h4 {
   margin: 5px auto;
   margin-left: 5px;
   border-radius: 20px;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+/*   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1); */
   padding: 10px;
   text-align: center;
   size: 2px;
@@ -74,7 +74,7 @@ p, h3 {
 
 .card{
   backdrop-filter: blur(3px);
-  margin: 3%;
+  margin: 10px 20%;
   border-radius: 3px;
   border: 0.5px solid whitesmoke;
   box-shadow: 12px 12px 12px E8DFCA(197, 155, 5, 0.5);
@@ -102,6 +102,7 @@ p, h3 {
   width: fit-content;
   transition: transform 0.3s ease;
   position: relative;
+  scale: 120%;
 
 }
 
@@ -121,7 +122,7 @@ p, h3 {
 #follow {
   color: #d9d4a2;
   /* background-color: #DAD4B5; Correct color code */
-  margin: 20% auto;
+  margin: 10px 20%;
   border-radius: 10px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   padding: 10%;
@@ -135,7 +136,7 @@ a{
   /* background-color:#D1E9F6; */
   padding: 1px;
   margin: 10px;
-  scale: 50%;
+  scale: 70%;
 
   }
 a:hover {
@@ -166,6 +167,7 @@ a:hover {
   transform: rotate(180deg);
   animation: rotate-idle 5s linear infinite;
   position: relative;
+  scale: 100%;
 }
 @keyframes rotate-idle {
   from {
