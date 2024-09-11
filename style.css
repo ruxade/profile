@@ -2,7 +2,7 @@ body {
   margin: 0;
   position: relative;
   /* background-image:  url("profile/images/London%20Map%20A1%20zoomin.gif"); */
-  background-image: url('./images/LondonMap_BW2.jpg');
+  background-image: url('./images/LondonMap_BW2.jpg'), url('./images/LondonMap_BW.jpg');
   background-repeat: no-repeat;
 
   background-position: center;
@@ -11,6 +11,25 @@ body {
   height: 100vh;
   background-color: #5a5a5a;
   overflow: auto;
+
+  animation: fadeOutImage 8s infinite; 
+
+}
+
+
+@keyframes fadeOutImage {
+  0% {
+    background-image: url('./images/LondonMap_BW2.jpg'), url('./images/LondonMap_BW.jpg'); 
+    opacity: 1;
+  }
+  50% {
+    background-image: url('./images/LondonMap_BW2.jpg'), url('./images/LondonMap_BW.jpg'); 
+    opacity: 0;
+  }
+  100% {
+    background-image: url('./images/LondonMap_BW2.jpg');
+    opacity: 1;
+  }
 }
 
   .map{
