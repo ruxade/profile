@@ -74,7 +74,7 @@ p, h3 {
 
 .card{
   backdrop-filter: blur(3px);
-  margin: 20%;
+  margin: 3%;
   border-radius: 3px;
   border: 0.5px solid whitesmoke;
   box-shadow: 12px 12px 12px E8DFCA(197, 155, 5, 0.5);
