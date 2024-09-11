@@ -125,7 +125,7 @@ p, h3 {
   margin: 10px 20%;
   border-radius: 10px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-  padding: 10%;
+  padding: 80px;
   text-align: center;
 }
 
@@ -135,7 +135,7 @@ a{
   color: #305a5f;
   /* background-color:#D1E9F6; */
   padding: 1px;
-  margin: 10px;
+  margin: 20px 20px;
   scale: 70%;
 
   }
@@ -171,13 +171,13 @@ a:hover {
 }
 @keyframes rotate-idle {
   from {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
   }
   to {
-    transform: rotate(540deg); /* Rotate 360 degrees plus the initial 180 degrees */
+    transform: rotate(360deg);
   }
 }
-/* Run Away Effect */
+/* Run Away */
 #btn-runaway:hover {
   background-color: #ffffff;
   transform: rotate(360deg);
@@ -189,7 +189,7 @@ a:hover {
   animation: runaway-end 2s ease-in-out forwards;
 }
 
-/* Animation for the Run Away Effect */
+/* Animation */
 @keyframes runaway {
   0% {
     transform: translate(0, 0px) ;
